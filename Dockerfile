@@ -1,4 +1,4 @@
-FROM mariadb:10.5
+FROM mariadb:10.6
 
 RUN echo "deb http://deb.debian.org/debian experimental main" >> /etc/apt/sources.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
