@@ -1,4 +1,4 @@
-FROM mariadb:10.4
+FROM mariadb:10.5
 
 RUN echo "deb http://deb.debian.org/debian experimental main" >> /etc/apt/sources.list
 RUN gpg --recv-keys 648ACFD622F3D138 && gpg --export 648ACFD622F3D138 | apt-key add -
