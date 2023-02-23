@@ -1,4 +1,4 @@
-FROM mariadb:10.6
+FROM mariadb:10.11
 
 #See: https://github.com/docker-library/mariadb/issues/265
 RUN dpkg-divert --add /bin/systemctl && ln -sT /bin/true /bin/systemctl
